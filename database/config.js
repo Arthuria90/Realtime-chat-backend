@@ -6,7 +6,7 @@ const dbConnection = async() =>{
         console.log('DB Online');
     }catch(error){
         console.log(error);
-        throw new Error('Error en la base de datos - Hable con el admin');
+        throw new Error('Database error - Contact with the admin');
     }
 }
 

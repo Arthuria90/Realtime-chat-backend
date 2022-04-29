@@ -14,7 +14,6 @@ const router = Router();
 // Create user
 router.post('/new',[
     check('name','Name is mandatory').not().isEmpty(),
-    check('email', 'Email is mandatory').not().isEmpty(),
     check('email', 'Email must be a valid email').isEmail(),
     check('password', 'Password is mandatory').not().isEmpty(), 
     validateFields
