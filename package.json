@@ -1,5 +1,5 @@
 {
-  "name": "01-band_names_server",
+  "name": "realtime-chat",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -19,6 +19,7 @@
     "express-validator": "^6.14.0",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^6.3.1",
-    "socket.io": "^2.3.0"
+    "realtime-chat": "file:",
+    "socket.io": "^4.8.0"
   }
 }
